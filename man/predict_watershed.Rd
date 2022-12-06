@@ -21,10 +21,10 @@ predict_watershed(
 }
 \arguments{
 \item{training_input}{String. The Watershed input file containing instances used to train the model.
-Either a file path or a URL.}
+Either a file path or a URL. For required format, see details of [evaluate_watershed()].}
 
 \item{prediction_input}{String. The Watershed input file containing instances to predict on.
-Either a file path or a URL.}
+Either a file path or a URL. For required format, see details of [evaluate_watershed()].}
 
 \item{number_dimensions}{Integer representing the number of outlier types. 
 Sometimes referred to as \code{E} in our documentation.}
@@ -110,5 +110,5 @@ predict_watershed(training_input = input,
 
 }
 \seealso{
-[evaluate_watershed]
+[evaluate_watershed()]
 }
